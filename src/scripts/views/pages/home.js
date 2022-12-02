@@ -6,7 +6,7 @@ const Home = {
         <div class="row">
             <div class="col">
                 <div class="section-one-left">
-                    <img class="img" src="../public/landing-page-picture/container-1-img.png" alt="">
+                    <img class="img" src="" alt="">
                 </div>
             </div>
             <div class="col">
