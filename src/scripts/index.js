@@ -1,4 +1,21 @@
 import 'regenerator-runtime';
-// import './script/component/card.js';
-// import '../styles/style.css';
-// import main from './script/test';
+import App from './views/App';
+
+import '../styles/landing-page/landing-page.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// components
+import './component/navbar';
+import './component/custom-footer';
+
+const app = new App({
+  content: document.querySelector('#content'),
+});
+
+window.addEventListener('hashchange', () => {
+  app.renderPage();
+});
+
+window.addEventListener('load', () => {
+  app.renderPage();
+});

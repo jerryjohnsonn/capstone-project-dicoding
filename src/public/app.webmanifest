@@ -1,0 +1,18 @@
+{
+  "id": "peling-pwa-1",
+  "start_url": "./index.html",
+  "name": "Peduli Lingkungan",
+  "short_name": "peduli lingkungan",
+  "description": "aplikasi peduli akan lingkungan yang bersih dari sampah",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#a0d972",
+  "icons": [
+    {
+      "src": "/icons/icon192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
