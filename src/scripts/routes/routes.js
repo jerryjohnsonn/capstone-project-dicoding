@@ -1,13 +1,11 @@
-import Home from '../views/pages/home';
-import TentangSampah from '../views/pages/tentang-sampah';
-import About from '../views/pages/about';
-import Login from '../views/pages/login';
+import TentangSampah from '../views/pages/tentang-sampah-page';
+import LandingPage from '../views/pages/landing-page';
+import About from '../views/pages/about-page';
 
 const routes = {
-  '/': Home,
+  '/': LandingPage,
   '/tentang-sampah': TentangSampah,
   '/about': About,
-  '/login': Login,
 };
 
 export default routes;

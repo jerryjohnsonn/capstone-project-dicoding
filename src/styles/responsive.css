@@ -1,0 +1,104 @@
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+  .container-tiga .card-hijau {
+    width: 330px;
+    height: 330px;
+  }
+  footer .first-footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .hr-dua, .hr-tiga{
+    display: none
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container-satu img {
+    margin-top: 20px;
+  }
+  img {
+    object-fit: cover;
+  }
+  .container-dua .row-dua {
+    margin-top: 80px;
+  }
+  .container-dua .row-ketiga {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 499px){
+  .navbar-brand span{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .navbar-brand span{
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .container-all {
+    margin: 0 50px;
+  }
+  .navbar-brand span{
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1200px){
+  .container-all {
+    margin: 0 100px;
+  }
+  footer .first-footer{
+    grid-template-columns: 360px 1fr;
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .container-tiga .card-hijau{
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h3,
+  p {
+    text-align: center;
+  } 
+
+  .container-dua .row-dua {
+    flex-direction: column-reverse;
+  }
+
+  .container-satu .row{
+    flex-direction: column-reverse;
+  }
+
+  a.nav-link{
+    padding-left: 20px;
+  }
+  
+  .nav-item{
+    border-bottom: 1px solid rgb(173, 173, 173);
+  }
+}
+
+@media screen and (max-width: 650px){
+  footer .first-footer {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 40px 30px;
+  }
+}
+

@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+img{
+  vertical-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Awal dari navbar */
+header{
+  position: sticky;
+  top: 0;
+}
+
+nav.navbar {
+  max-width: 100%;
+  height: auto;
+  background-color: #f2f1ef;
+}
+
+.navbar-brand span {
+  position: relative;
+  top: 5px;
+  font-family: 'Bubblegum Sans', cursive !important;
+  color: #54ac41;
+}
+
+a.nav-link {
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+
+.company-image {
+  height: 60px;
+  width: 60px;
+}
+
+/* Akhir dari navbar */
+
+/* Awal dari Container besar */
+
+.container-all {
+  margin: 0 30px;
+}
+
+/* Akhir dari container besar */
+
+/* Awal dari container-1 */
+.container-satu {
+  margin-top: 50px;
+}
+
+.container-all h3 {
+  margin-top: 40px;
+  font-style: normal;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #379237;
+}
+
+.container-satu p {
+  display: block;
+  margin-top: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.73);
+}
+
+.container-satu img {
+  display: block;
+  border-radius: 30px;
+  box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Akhir dari container-1 */
+
+/* Awal dari container 2 */
+
+.container-dua {
+  margin-top: 40px;
+}
+
+.container-dua h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #379237;
+  margin: 0;
+}
+
+.container-dua .image-1 {
+  display: block;
+  border-radius: 30px;
+  box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-dua .row-satu {
+  margin-top: 40px;
+}
+
+.container-dua .row-satu p {
+  margin-top: 40px;
+  align-self: center;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.73);
+  display: block;
+}
+
+.container-dua .image-2 {
+  display: block;
+  border-radius: 30px;
+  box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-dua .row-dua {
+  margin-top: 40px;
+}
+
+.container-dua .row-dua p {
+  margin-top: 40px;
+  align-self: center;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.73);
+  display: block;
+}
+
+.container-dua .row-ketiga p {
+  margin-top: 40px;
+  align-self: center;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.73);
+  display: block;
+}
+
+.container-dua .image-3 {
+  display: block;
+  border-radius: 30px;
+  box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-dua .row-ketiga {
+  margin-top: 40px;
+}
+
+/* Akhir dari container 2 */
+
+/* Awal dari container 3*/
+
+.container-tiga {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.container-tiga h3 {
+  font-style: normal;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  color: #379237;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.container-tiga .card-hijau {
+  background-color: #68b984;
+  height: 250px;
+  width: 250px;
+  margin: 0;
+  border-radius: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.container-tiga .card-danger {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-tiga .card-organic {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-tiga .card-anorganic {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-tiga .card-hijau img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.container-tiga .card-hijau span {
+  font-size: 32px;
+  color: #100703;
+  font-weight: 600;
+}
+
+.container-tiga .row-kedua {
+  margin: 0 100 0 100;
+}
+
+/* Akhir dari container 3 */
+
+/* Awal Footer */
+
+footer {
+  background-color: #68b984;
+  width: 100%;
+}
+
+footer .first-footer {
+  padding: 80px;
+  display: grid;
+}
+
+footer .first-footer div ul{
+  padding: 0;
+}
+
+footer .first-footer div ul li{
+  list-style: none;
+}
+
+footer .first-footer div ul li a{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  display: block;
+  text-decoration: none;
+  line-height: 2;
+  min-height: 44px;
+}
+
+footer .first-footer div ul li a:hover{
+  font-weight: 700;
+}
+
+footer hr {
+  color: white;
+  opacity: 1;
+}
+
+footer .copyright p{
+  font-weight: 600;
+}
+
+footer hr {
+  border: 1px solid white;
+}
+
+.first-footer p {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.first-footer h1{
+  font-weight: 700;
+}
+
+.footer-address p {
+  text-align: left;
+}
+
+.copyright p {
+  font-size: 18px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Akhir Footer */
