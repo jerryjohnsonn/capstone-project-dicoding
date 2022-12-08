@@ -1,3 +1,5 @@
+/* Responsivity untuk bagian dari Navbar */
+
 @media screen and (min-width: 1200px) {
   html {
     font-size: 16px;
@@ -12,16 +14,7 @@
   }
 }
 
-@media screen and (max-width: 1023px){
-  .hr-dua, .hr-tiga{
-    display: none
-  }
-}
-
 @media screen and (min-width: 992px) {
-  .container-satu img {
-    margin-top: 20px;
-  }
   img {
     object-fit: cover;
   }
@@ -60,7 +53,7 @@
   }
   footer .first-footer{
     grid-template-columns: 360px 1fr;
-    gap: 16px;
+    gap: 32px;
   }
 }
 
@@ -102,3 +95,75 @@
   }
 }
 
+/* Styling untuk bagian about page */
+
+@media screen and (max-width: 1200px) {
+  .about-pedulilingkungan {
+    flex-direction: row;
+    grid-template-rows: 350px 1fr;
+  }
+
+  .about-pedulilingkungan .pedulilingkungan-logo img {
+    max-width: 320px;
+  }
+
+  .pedulilingkungan-description h1 {
+    text-align: center;
+  }
+
+  .about-pedulilingkungan .pedulilingkungan-description p {
+    text-align: center;
+  }
+
+  div.pedulilingkungan-logo {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about-pedulilingkungan .pedulilingkungan-logo img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .about-pedulilingkungan .pedulilingkungan-description h1 {
+    text-align: left;
+  }
+  .about-pedulilingkungan .pedulilingkungan-description p {
+    text-align: left;
+  }
+  .about-team {
+    padding: 32px;
+  }
+  .team-description {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .pedulilingkungan-logo img {
+    margin-bottom: 50px;
+  }
+  .pedulilingkungan-description {
+    width: 80%;
+  }
+  .about-pedulilingkungan {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .team-profile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 480px);
+    gap: 56px;
+    row-gap: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-pedulilingkungan {
+    flex-direction: column;
+    grid-template-columns: 500px 1fr;
+  }
+}

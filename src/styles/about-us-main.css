@@ -1,0 +1,72 @@
+/* Styling untuk bagian About page*/
+/* About PeduliLingkungan */
+
+.about-pedulilingkungan {
+  display: grid;
+  margin: 80px 36px;
+  justify-items: center;
+}
+
+.pedulilingkungan-logo {
+  justify-content: center;
+}
+
+.pedulilingkungan-description h1 {
+  margin-bottom: 16px;
+}
+
+.about-pedulilingkungan .pedulilingkungan-logo img {
+  width: 320px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0px 0px 10px 5px#dadada;
+}
+
+.about-team {
+  padding: 48px 128px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.card {
+  border-radius: 30px;
+  width: 16rem;
+  box-shadow: 0px 0px 10px 5px #dadada;
+  background-color: #68b984;
+  border-radius: 30px;
+  margin-bottom: 24px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+img.card-img-top {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 24px;
+}
+
+.team-description h1 {
+  margin: 20px 0 30px 0;
+}
+
+.team-description p {
+  margin-bottom: 48px;
+}
