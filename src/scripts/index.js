@@ -1,4 +1,5 @@
 import 'regenerator-runtime';
+// eslint-disable-next-line import/extensions
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/style.css';

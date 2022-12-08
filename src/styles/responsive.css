@@ -26,14 +26,14 @@
   }
 }
 
-@media screen and (max-width: 499px){
-  .navbar-brand span{
+@media screen and (max-width: 499px) {
+  .navbar-brand span {
     font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 320px){
-  .navbar-brand span{
+@media screen and (max-width: 320px) {
+  .navbar-brand span {
     font-size: 1.4rem;
   }
 }
@@ -42,23 +42,23 @@
   .container-all {
     margin: 0 50px;
   }
-  .navbar-brand span{
+  .navbar-brand span {
     font-size: 2.5rem;
   }
 }
 
-@media screen and (min-width: 650px) and (max-width: 1200px){
+@media screen and (min-width: 650px) and (max-width: 1200px) {
   .container-all {
     margin: 0 100px;
   }
-  footer .first-footer{
+  footer .first-footer {
     grid-template-columns: 360px 1fr;
     gap: 32px;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
-  .container-tiga .card-hijau{
+  .container-tiga .card-hijau {
     height: 400px;
     width: 400px;
   }
@@ -68,26 +68,26 @@
   h3,
   p {
     text-align: center;
-  } 
+  }
 
   .container-dua .row-dua {
     flex-direction: column-reverse;
   }
 
-  .container-satu .row{
+  .container-satu .row {
     flex-direction: column-reverse;
   }
 
-  a.nav-link{
+  a.nav-link {
     padding-left: 20px;
   }
-  
-  .nav-item{
+
+  .nav-item {
     border-bottom: 1px solid rgb(173, 173, 173);
   }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
   footer .first-footer {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -97,14 +97,20 @@
 
 /* Styling untuk bagian about page */
 
+@media screen and (max-width: 500px) {
+  .about-pedulilingkungan .pedulilingkungan-logo {
+    height: 250px;
+    width: 250px;
+  }
+  #main-content .about-pedulilingkungan {
+    grid-template-rows: 300px 1fr;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .about-pedulilingkungan {
     flex-direction: row;
     grid-template-rows: 350px 1fr;
-  }
-
-  .about-pedulilingkungan .pedulilingkungan-logo img {
-    max-width: 320px;
   }
 
   .pedulilingkungan-description h1 {
@@ -121,10 +127,6 @@
 }
 
 @media screen and (max-width: 650px) {
-  .about-pedulilingkungan .pedulilingkungan-logo img {
-    margin-top: 20px;
-    margin-bottom: 50px;
-  }
   .about-pedulilingkungan .pedulilingkungan-description h1 {
     text-align: left;
   }
