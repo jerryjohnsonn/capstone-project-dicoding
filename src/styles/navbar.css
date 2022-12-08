@@ -1,0 +1,36 @@
+/* Awal dari navbar */
+
+header{
+  position: sticky;
+  top: 0;
+}
+
+nav.navbar {
+  max-width: 100%;
+  height: auto;
+  background-color: #f2f1ef;
+}
+
+.navbar-brand span {
+  position: relative;
+  top: 5px;
+  font-family: 'Bubblegum Sans', cursive !important;
+  color: #54ac41;
+}
+
+a.nav-link {
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+
+.company-image {
+  height: 60px;
+  width: 60px;
+}
+
+/* Akhir dari navbar */
+
+
