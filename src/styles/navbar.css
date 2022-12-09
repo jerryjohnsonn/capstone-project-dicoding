@@ -1,36 +1,37 @@
-/* Awal dari navbar */
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Inter:wght@400;500;600&family=Montserrat:ital,wght@0,400;1,600&display=swap');
 
-header{
-  position: sticky;
-  top: 0;
+:root {
+  --first-color: #68b984;
+  --font-color: #379237;
+  --log-color: #54ac41;
+  --footer-color: #344d67;
+  --navbar-color: #f2f1ef;
 }
 
-nav.navbar {
-  max-width: 100%;
-  height: auto;
-  background-color: #f2f1ef;
+.navbar,
+.offcanvas,
+.list-group-item {
+  background-color: var(--navbar-color);
+}
+.brand-text {
+  font-family: 'Bubblegum Sans', cursive;
+  font-weight: 400;
+  line-height: 1em;
+  color: var(--log-color);
 }
 
-.navbar-brand span {
-  position: relative;
-  top: 5px;
-  font-family: 'Bubblegum Sans', cursive !important;
-  color: #54ac41;
+.navbar .nav-item .nav-link,
+.list-group-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.navbar .nav-item .nav-link:hover,
+.list-group-link:hover {
+  color: var(--log-color);
 }
 
-a.nav-link {
-  margin-right: 20px;
-  font-weight: 600;
-  font-size: 24px;
-  font-family: 'Montserrat';
-  font-style: normal;
+.active {
+  font-weight: bold;
+  color: var(--log-color);
 }
-
-.company-image {
-  height: 60px;
-  width: 60px;
-}
-
-/* Akhir dari navbar */
-
-
