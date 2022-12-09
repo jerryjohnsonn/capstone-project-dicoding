@@ -25,7 +25,7 @@ const About = {
           </p>
         </div>
         <div class="team-profile">
-          <div class="card" style="width: 18rem">
+          <div class="card">
             <img src="../public/jerry.jpeg" class="card-img-top" alt="Jerry" />
             <div class="card-body">
               <h5 class="card-title">Jerry Johnson</h5>
@@ -33,7 +33,7 @@ const About = {
               <a href="https://www.linkedin.com/in/jerry-johnson-b77250208/" target="_blank" class="btn btn-primary">Connect</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div class="card">
             <img src="../public/afiq.jpeg" class="card-img-top" alt="Afiq" />
             <div class="card-body">
               <h5 class="card-title">Muhammad Afiq</h5>
@@ -41,7 +41,7 @@ const About = {
               <a href="https://www.linkedin.com/in/muhammad-afiq-2a097314b/" target="_blank" class="btn btn-primary">Connect</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div class="card">
             <img src="../public/fajar.jpg" class="card-img-top" alt="Fajar" />
             <div class="card-body">
               <h5 class="card-title">Muhammad Fajar Febriansyah</h5>
@@ -49,7 +49,7 @@ const About = {
               <a href="https://www.linkedin.com/in/fajar-febriansyah-159349241/" target="_blank" class="btn btn-primary">Connect</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div class="card">
             <img src="../public/fariz.JPG" class="card-img-top" alt="Fariz" />
             <div class="card-body">
               <h5 class="card-title">Muhammad Fariz Naufal Ramadhan</h5>

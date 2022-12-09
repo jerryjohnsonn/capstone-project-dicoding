@@ -33,11 +33,12 @@
 }
 
 .card {
-  border-radius: 30px;
-  width: 16rem;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 300px;
   box-shadow: 0px 0px 10px 5px #dadada;
   background-color: #68b984;
-  border-radius: 30px;
   margin-bottom: 24px;
   align-items: center;
   justify-content: space-evenly;
@@ -52,6 +53,18 @@
 .card-title,
 .card-text {
   text-align: center;
+}
+
+h5.card-title{
+  font-size: 20px;
+}
+
+p.card-text{
+  font-size: 16px;
+}
+
+a.btn{
+  font-size: 16px;
 }
 
 img.card-img-top {

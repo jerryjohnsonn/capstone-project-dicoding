@@ -1,6 +1,6 @@
 {
   "id": "pedulilingkungan-pwa-1",
-  "start_url": "./index.html",
+  "start_url": "../index.html",
   "name": "Peduli Lingkungan",
   "short_name": "Peduli Lingkungan",
   "description": "aplikasi peduli akan lingkungan yang bersih dari sampah",
