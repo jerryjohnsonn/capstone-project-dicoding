@@ -12,6 +12,9 @@
     "no-console": "off",
     "linebreak-style": "off",
     "no-underscore-dangle": "off",
-    "operator-linebreak": "off"
+    "operator-linebreak": "off",
+    "no-trailing-spaces":"off",
+    "eol-last":"off",
+    "no-plusplus":"off"
   }
 }

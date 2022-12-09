@@ -1,15 +1,18 @@
 import 'regenerator-runtime';
-import App from './views/App';
-
-import '../styles/landing-page/landing-page.css';
+// eslint-disable-next-line import/extensions
+import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-// components
-import './component/navbar';
-import './component/custom-footer';
+import '../styles/style.css';
+import '../styles/navbar.css';
+import '../styles/tentang-sampah-main.css';
+import '../styles/about-us-main.css';
+import '../styles/footer.css';
+import '../styles/responsive.css';
+import App from './views/app';
+import NavigatorActive from './utils/navigator-active';
 
 const app = new App({
-  content: document.querySelector('#content'),
+  content: document.querySelector('#main-content'),
 });
 
 window.addEventListener('hashchange', () => {
@@ -17,5 +20,6 @@ window.addEventListener('hashchange', () => {
 });
 
 window.addEventListener('load', () => {
+  NavigatorActive.makeActive();
   app.renderPage();
 });
