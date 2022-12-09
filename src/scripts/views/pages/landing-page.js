@@ -33,7 +33,7 @@ const LandingPage = {
 </section>
 
 <!-- container-2 -->
-<section class="my-5 section-two ">
+<section class="py-5 section-two ">
     <div class="section-content py-5">
         <div class="row content justify-content-center mt-5 mx-4">
             <div class="col-lg-5 col-md-6 mt-5 text-center">
@@ -108,7 +108,7 @@ const LandingPage = {
 </section>
 
 <!-- container 4 -->
-<section>
+<section class="py-5">
     <div class="row content justify-content-center mt-5 mx-4">
         <div class=" col-lg-7 col-md-6 mt-5 ">
             <h1 class="first-text fs-1" style="color:#379237">

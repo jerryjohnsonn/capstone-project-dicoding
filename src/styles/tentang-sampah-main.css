@@ -1,41 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Inter:wght@400;500;600&family=Montserrat:ital,wght@0,400;1,600&display=swap');
-
-:root {
-  --first-color: #68b984;
-  --font-color: #379237;
-  --log-color: #54ac41;
-  --footer-color: #344d67;
-  --navbar-color: #f2f1ef;
-}
-
 .header-text-container {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   color: var(--font-color);
 }
 
-.paragph-text {
-  font-family: 'Montserrat', sans-serif;
+.pargph-text {
+  font-family: 'Montserrat', sans-serif !important;
   font-weight: 400;
 }
 
-.kolom {
-  border: 1px solid;
+/* mainan baru */
+.hover-1 {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100%;
 }
 
-/* responsive */
+.hover-overlay-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
 
-@media screen and (max-width: 768px) {
-  .first {
-    order: 1;
-  }
-  .second {
-    order: 2;
-  }
-  .third {
-    order: 3;
-  }
-  .fourth {
-    order: 4;
-  }
+.hover-1 img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content-1 {
+  position: relative;
+  z-index: 99;
+}
+
+.hover-2 .hover-overlay-1 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+  border-radius: 30px;
+}
+
+.hover-2-description {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  left: 0;
+  text-align: center;
+  z-index: 99;
+  transition: all 0.3s;
+}
+
+.hover-2:hover .hover-2-description {
+  bottom: 8rem;
+  opacity: 1;
+}
+
+.hover-2:hover .hover-overlay-1 {
+  background: rgba(0, 0, 0, 0.6);
 }

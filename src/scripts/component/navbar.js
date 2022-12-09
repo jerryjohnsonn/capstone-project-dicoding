@@ -11,7 +11,7 @@ class Navbar extends HTMLElement {
             <img src="./page1/logo.svg" alt="Logo" width="50" height="50" class=" ">
             <span class="brand-text fs-3">PeduliLingkungan</span>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+        <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@ class Navbar extends HTMLElement {
                     <a class="nav-link py-3 fs-6" href="#/tentang-sampah">Tentang Sampah</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link py-3 fs-6" href="#/jenis-sampah">Jenis Sampah</a>
+                    <a class="nav-link py-3 fs-6" href="#jenis-sampah">Jenis Sampah</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link py-3 fs-6" href="#/kami">Kami</a>

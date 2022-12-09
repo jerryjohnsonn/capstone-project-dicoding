@@ -1,0 +1,48 @@
+/* responsive */
+
+@media screen and (max-width: 768px) {
+  .mikir {
+    display: flex;
+    flex-flow: column;
+  }
+  .first {
+    order: 2;
+  }
+  .second {
+    order: 1;
+  }
+  .third {
+    order: 3;
+  }
+  .fourth {
+    order: 4;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body,
+  header {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer .first-footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1200px) {
+  footer .first-footer {
+    grid-template-columns: 360px 1fr;
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  footer .first-footer {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 40px 30px;
+  }
+}

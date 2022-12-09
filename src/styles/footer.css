@@ -10,15 +10,15 @@ footer .first-footer {
   display: grid;
 }
 
-footer .first-footer div ul{
+footer .first-footer div ul {
   padding: 0;
 }
 
-footer .first-footer div ul li{
+footer .first-footer div ul li {
   list-style: none;
 }
 
-footer .first-footer div ul li a{
+footer .first-footer div ul li a {
   font-size: 18px;
   font-weight: 500;
   color: black;
@@ -28,7 +28,7 @@ footer .first-footer div ul li a{
   min-height: 44px;
 }
 
-footer .first-footer div ul li a:hover{
+footer .first-footer div ul li a:hover {
   font-weight: 700;
 }
 
@@ -38,7 +38,7 @@ footer hr {
   border: 1px solid white;
 }
 
-footer .copyright p{
+footer .copyright p {
   font-weight: 600;
 }
 
@@ -48,7 +48,7 @@ footer .copyright p{
   font-weight: 500;
 }
 
-.first-footer h1{
+.first-footer h1 {
   color: black;
   font-weight: 700;
 }
@@ -65,4 +65,3 @@ footer .copyright p{
 }
 
 /* Akhir Footer */
-

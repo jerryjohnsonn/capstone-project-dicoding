@@ -49,7 +49,7 @@ class Footer extends HTMLElement {
     </div>
     <div class="footer-address">
       <h1>Alamat</h1>
-      <p>JL. GESIT AGUNG , MEDAN BARAT , 20116 , SUMATERA UTARA , INDONESIA</p>
+      <p>Jl. Rawa Simprug, Kebayoran Lama Jakarta Selatan. 12220</p>
     </div>
   </div>
   <hr />

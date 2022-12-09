@@ -9,5 +9,16 @@
 
 .card .btn:hover {
   background-color: var(--footer-color);
-  color: white;
+  color: white !important;
+}
+
+.card-header .img {
+  width: 70%;
+  height: max-content;
+}
+
+.card .d-grid .btn a {
+  text-decoration: none;
+  text-transform: none;
+  color: black;
 }

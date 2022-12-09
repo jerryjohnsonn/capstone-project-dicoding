@@ -2,7 +2,8 @@ import 'regenerator-runtime';
 // eslint-disable-next-line import/extensions
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import '../styles/style.css';
+import '../styles/root.css';
+import '../styles/responsive.css';
 import '../styles/navbar.css';
 import '../styles/landing-page-main.css';
 import '../styles/tentang-sampah-main.css';
