@@ -35,14 +35,14 @@ const About = {
     </div>
     <div class="row content justify-content-center mt-5 mx-4">
         <div class="col-xxl-3 col-lg-5 my-4">
-            <div class="card" style="width: 25rem;">
+            <div class="card" style="width: 20rem;">
                 <div class="card-header  text-center py-5">
                     <img src="./page3/afiq.svg" alt="" class="img-fluid p-0">
                     <div class="descript-card">
                         <h1 class="name text-center pt-3 pb-1">
                             Afiq
                         </h1>
-                        <p class="tugas text-center fs-5">Project Manajer</p>
+                        <p class="tugas text-center pt-1 fs-5">Project Manajer</p><br>
                     </div>
                     <div class="d-grid">
                         <button class="btn btn-primary fs-5 py-3" type="button">Connect</button>
@@ -51,7 +51,7 @@ const About = {
             </div>
         </div>
         <div class="col-xxl-3 col-lg-5 my-4">
-            <div class="card" style="width: 25rem;">
+            <div class="card" style="width: 20rem;">
                 <div class="card-header text-center py-5">
                     <img src="./page3/jery.svg" alt="" class="img-fluid p-0">
                     <div class="descript-card">
@@ -67,12 +67,12 @@ const About = {
             </div>
         </div>
         <div class="col-xxl-3 col-lg-5 my-4">
-            <div class="card" style="width: 25rem;">
+            <div class="card" style="width: 20rem;">
                 <div class="card-header text-center py-5">
                     <img src="./page3/fajar.svg" alt="" class="img-fluid p-0">
                     <div class="descript-card">
                         <h1 class="name text-center pt-3 pb-1">
-                            Fariz
+                            Fajar
                         </h1>
                         <p class="tugas text-center fs-5">Frontend Developer | UI/UX Designer</p>
                     </div>
@@ -83,7 +83,7 @@ const About = {
             </div>
         </div>
         <div class="col-xxl-3 col-lg-5 my-4">
-            <div class="card" style="width: 25rem;">
+            <div class="card" style="width: 20rem;">
                 <div class="card-header text-center py-5">
                     <img src="./page3/fariz.svg" alt="" class="img-fluid p-0">
                     <div class="descript-card">

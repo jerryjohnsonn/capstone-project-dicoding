@@ -5,7 +5,7 @@ import About from '../views/pages/about-page';
 const routes = {
   '/': LandingPage,
   '/tentang-sampah': TentangSampah,
-  '/about': About,
+  '/kami': About,
 };
 
 export default routes;

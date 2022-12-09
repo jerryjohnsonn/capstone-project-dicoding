@@ -73,7 +73,7 @@ const TentangSampah = {
     </div>
 </section>
 
-<section class="my-5">
+<section id="jenis-sampah" class="my-5">
     <div class="row mx-4">
         <h1 class="header-text-container text-center fs-1">
             Ada 3 jenis kategori sampah:
