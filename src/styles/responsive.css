@@ -1,6 +1,6 @@
 /* responsive */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .mikir {
     display: flex;
     flex-flow: column;
@@ -17,6 +17,22 @@
   .fourth {
     order: 4;
   }
+  .pargph-text {
+    text-align: center;
+  }
+  .header-text-container {
+    text-align: center;
+  }
+  h1.first-text.fs-1.text-center {
+    padding-top: 40px;
+    text-align: center;
+  }
+  h1.first-text {
+    text-align: center;
+  }
+  p.text-content {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -29,6 +45,18 @@
   footer .first-footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  div.d-flex.col-lg-7.col-md-6.mt-3 {
+    align-items: center;
+  }
+  div.d-flex.first.col-lg-7.col-md-6.mt-3 {
+    align-items: center;
+  }
+  div.d-flex.col-lg-7.col-md-6.mt-3 {
+    align-items: center;
   }
 }
 
@@ -45,4 +73,7 @@
     gap: 32px;
     padding: 40px 30px;
   }
+}
+
+@media screen and (min-width: 1400px) {
 }

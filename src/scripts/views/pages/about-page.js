@@ -67,7 +67,7 @@ const About = {
             </div>
         </div>
     </div>
-    <div class="row content justify-content-around mt-5 mx-4">
+    <div class="row content justify-content-around mx-4">
         <div class="col-md-4 d-flex justify-content-center my-4 ">
             <div class="card" style="width: 18rem;">
                 <div class="card-header text-center py-5">

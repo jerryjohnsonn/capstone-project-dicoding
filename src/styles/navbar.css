@@ -22,6 +22,26 @@
 }
 
 .active {
-  font-weight: bold;
+  font-weight: 600;
   color: var(--log-color);
+}
+
+.offcanvas {
+  width: 250px !important;
+}
+
+a.nav-link{
+  margin-right: 20px;
+}
+
+a.d-flex.navbar-brand{
+  align-items: center;
+}
+
+a.d-flex.navbar-brand span{
+  padding-top: 5px;
+}
+
+div ul.navbar-nav.ms-auto li.nav-item a.active{
+  font-weight: 800;
 }
