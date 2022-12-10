@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Inter:wght@400;500;600&family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+:root {
+  --first-color: #68b984;
+  --font-color: #379237;
+  --log-color: #54ac41;
+  --footer-color: #344d67;
+  --navbar-color: #f2f1ef;
+}
+
+.navbar,
+.offcanvas,
+.list-group-item {
+  background-color: var(--navbar-color);
+}
+.brand-text {
+  font-family: 'Bubblegum Sans', cursive;
+  font-weight: 400;
+  line-height: 1em;
+  color: var(--log-color);
+}
+
+.navbar .nav-item .nav-link,
+.list-group-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.navbar .nav-item .nav-link:hover,
+.list-group-link:hover {
+  color: var(--log-color);
+}
+
+.active {
+  font-weight: bold;
+  color: var(--log-color);
+}
+
+/* section 1 */
+.text-center .text {
+  color: var(--first-color);
+}
+
+.first-text {
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  /* font-size: 1.5rem; */
+}
+
+.text-content {
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+.btn {
+  background-color: #69ba84;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #179f62;
+  color: white;
+}
+
+.kolom {
+  border: 1px solid;
+}
+
+/* container 2 */
+.section-content {
+  /* position: relative; */
+  background-color: var(--first-color);
+}
+
+/* section 3 */
+
+/* mainan baru */
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+/* DEMO 1 ============================== */
+.hover-3::after {
+  content: '';
+  width: calc(100% - 3rem);
+  height: calc(100% - 3rem);
+  border: 1px solid #fff;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 90;
+  transition: all 0.3s;
+  transform: scale(1.1);
+  opacity: 0;
+  display: block;
+  opacity: 0;
+}
+
+.hover-3-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 99;
+}
+
+.hover-3-description {
+  opacity: 0;
+  transform: scale(1.3);
+  transition: all 0.3s;
+}
+
+.hover-3 img {
+  width: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-3 .hover-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.hover-3:hover img {
+  width: 100%;
+}
+
+.hover-3:hover::after {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-3:hover .hover-3-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-3:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* offcanvas */
+.offcanvas {
+  transition: all 0.5s;
+}
+
+.offcanvas-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  background-color: #f2f1ef;
+}
+.offcanvas-item:hover {
+  background-color: #179f62;
+  color: white;
+}
+
+/* footer */
+footer {
+  overflow-x: hidden;
+  background-color: var(--first-color);
+}
+.footer-brand {
+  color: var(--footer-color);
+  font-family: 'Bubblegum Sans', cursive;
+  font-weight: 400;
+}
+.text-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  -webkit-text-stroke: 0.5px white;
+}
+.text-title span {
+  font-size: 30px;
+}
+
+.footer-bottom {
+  border-top: 1px solid;
+}
+
+.navigasi {
+  color: black;
+}

@@ -1,185 +1,65 @@
-/* Awal dari Container besar */
-
-.container-all {
-  margin: 0 30px;
-}
-
-/* Akhir dari container besar */
-
-/* Awal dari container-1 */
-.container-satu {
-  margin-top: 50px;
-}
-
-.container-all h3 {
-  margin-top: 40px;
-  font-style: normal;
-  font-size: 2.5rem;
-  display: flex;
-  align-items: center;
+.header-text-container {
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  color: #379237;
+  color: var(--font-color);
 }
 
-.container-satu p {
-  display: block;
-  margin-top: 30px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5rem;
-  color: rgba(0, 0, 0, 0.73);
+.pargph-text {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
 }
 
-.container-satu img {
-  display: block;
+/* mainan baru */
+.hover-1 {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100%;
+}
+
+.hover-overlay-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover-1 img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-content-1 {
+  position: relative;
+  z-index: 99;
+}
+
+.hover-2 .hover-overlay-1 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
   border-radius: 30px;
-  box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* Akhir dari container-1 */
-
-/* Awal dari container 2 */
-
-.container-dua {
-  margin-top: 40px;
-}
-
-.container-dua h3 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2.5rem;
-  color: #379237;
-  margin: 0;
-}
-
-.container-dua .image-1 {
-  display: block;
-  border-radius: 30px;
-  box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.container-dua .row-satu {
-  margin-top: 40px;
-}
-
-.container-dua .row-satu p {
-  margin-top: 20px;
-  align-self: center;
-  justify-content: center;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5rem;
-  color: rgba(0, 0, 0, 0.73);
-  display: block;
-}
-
-.container-dua .image-2 {
-  display: block;
-  border-radius: 30px;
-  box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.container-dua .row-dua {
-  margin-top: 40px;
-}
-
-.container-dua .row-dua p {
-  margin-top: 40px;
-  align-self: center;
-  justify-content: center;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5rem;
-  color: rgba(0, 0, 0, 0.73);
-  display: block;
-}
-
-.container-dua .row-ketiga p {
-  margin-top: 20px;
-  align-self: center;
-  justify-content: center;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5rem;
-  color: rgba(0, 0, 0, 0.73);
-  display: block;
-}
-
-.container-dua .image-3 {
-  display: block;
-  border-radius: 30px;
-  box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.container-dua .row-ketiga {
-  margin-top: 40px;
-}
-
-/* Akhir dari container 2 */
-
-/* Awal dari container 3*/
-
-.container-tiga {
-  display: block;
-  margin-top: 40px;
-  margin-bottom: 60px;
-}
-
-.container-tiga h3 {
-  font-style: normal;
-  font-weight: 600;
-  align-items: center;
+.hover-2-description {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  left: 0;
   text-align: center;
-  color: #379237;
-  font-size: 2.5rem;
-  margin-bottom: 30px;
+  z-index: 99;
+  transition: all 0.3s;
 }
 
-.container-tiga .card-hijau {
-  background-color: #68b984;
-  height: 250px;
-  width: 250px;
-  margin: 0;
-  border-radius: 30px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.hover-2:hover .hover-2-description {
+  bottom: 8rem;
+  opacity: 1;
 }
 
-.container-tiga .card-danger {
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.hover-2:hover .hover-overlay-1 {
+  background: rgba(0, 0, 0, 0.6);
 }
-
-.container-tiga .card-organic {
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.container-tiga .card-anorganic {
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.container-tiga .card-hijau img {
-  height: 200px;
-  width: 200px;
-  object-fit: cover;
-}
-
-.container-tiga .card-hijau span {
-  font-size: 32px;
-  color: #100703;
-  font-weight: 600;
-}
-
-.container-tiga .row-kedua {
-  margin: 0 100 0 100;
-}
-
-/* Akhir dari container 3 */

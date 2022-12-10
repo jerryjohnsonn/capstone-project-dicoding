@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Inter:wght@400;500;600&family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+:root {
+  --first-color: #68b984;
+  --font-color: #379237;
+  --log-color: #54ac41;
+  --footer-color: #344d67;
+  --navbar-color: #f2f1ef;
+}
+
+body {
+  background-color: rgb(249, 248, 248);
+}
+
+section {
+  background-color: white;
+}
