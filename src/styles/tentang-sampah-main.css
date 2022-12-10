@@ -9,6 +9,18 @@
   font-weight: 400;
 }
 
+#berita{
+  padding-bottom: 40px;
+}
+
+a.pargph-text{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
 /* Awal dari container 3*/
 
 .container-tiga {

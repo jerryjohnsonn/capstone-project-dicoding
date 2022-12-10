@@ -54,10 +54,10 @@ class Navbar extends HTMLElement {
               <a id="active" class="text-center offcanvas-item mt-3 py-3 fs-6" href="#/tentang-sampah">Tentang
                   Sampah</a>
           </div>
-          <div class="row justify-content-center">
+          <!-- <div class="row justify-content-center">
               <a id="active" class="text-center offcanvas-item mt-3 py-3 fs-6" href="#/jenis-sampah">Jenis
                   Sampah</a>
-          </div>
+          </div> -->
           <div class="row justify-content-center">
               <a id="active" class="text-center offcanvas-item mt-3 py-3 fs-6" href="#/kami">Kami</a>
           </div>

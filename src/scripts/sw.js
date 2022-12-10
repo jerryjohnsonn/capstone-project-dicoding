@@ -28,7 +28,6 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(CacheHelper.deleteOldCache());
 });
 
-// self.addEventListener('fetch', (event) => {
-//   console.log(event.request);
-//   event.respondWith(CacheHelper.revalidateCache(event.request));
-// });
+self.addEventListener('fetch', (event) => {
+  event.respondWith(CacheHelper.revalidateCache(event.request));
+});
