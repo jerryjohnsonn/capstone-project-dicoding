@@ -36,6 +36,10 @@
   color: var(--log-color);
 }
 
+#main-content{
+  background-color: white;
+}
+
 /* section 1 */
 .text-center .text {
   color: var(--first-color);

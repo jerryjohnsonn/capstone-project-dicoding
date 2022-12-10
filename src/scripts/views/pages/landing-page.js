@@ -1,9 +1,10 @@
 const LandingPage = {
   async render() {
     return `
+    <!-- container 1 -->
     <section class="first-content  mt-5 pt-5">
     <div class="row justify-content-center mx-4">
-        <div class="col-lg-5 col-md-6 text-center ">
+        <div class="d-flex col-lg-5 col-md-6 text-center ">
             <img src="./page1/container1.svg" class="img-thumbnail" alt=""">
         </div>
         <div class=" col-lg-7 col-md-6 ">
@@ -36,7 +37,7 @@ const LandingPage = {
 <section class="py-5 section-two ">
     <div class="section-content py-5">
         <div class="row content justify-content-center mt-5 mx-4">
-            <div class="col-lg-5 col-md-6 mt-5 text-center">
+            <div class="col-lg-5 col-md-6 text-center d-flex">
                 <img src="./page1/container2.svg" class="img-fluid" alt="">
             </div>
             <div class=" col-lg-7 col-md-6 mt-5">
@@ -64,7 +65,7 @@ const LandingPage = {
     </div>
     <br>
     <div class="row gx-5s justify-content-center mx-4">
-        <div class="col-xxl-3 col-lg-5 my-4 view  row-content text-center">
+        <div class="col-lg-5 col-md-6 col-sm-6 my-4 view  row-content text-center">
             <div class="img-container">
                 <div class="hover hover-3 text-white rounded"><img src="./page1/lingkungan-img.svg" alt="">
                     <div class="hover-overlay"></div>
@@ -74,7 +75,7 @@ const LandingPage = {
                 </div>
             </div>
         </div>
-        <div class="col-xxl-3 col-lg-5 my-4 row-content text-center ">
+        <div class="col-lg-5 col-md-6 col-sm-6 my-4 row-content text-center ">
             <div class="img-container">
                 <div class="hover hover-3 text-white rounded"><img src="./page1/ekonomi-img.svg" alt="">
                     <div class="hover-overlay"></div>
@@ -84,7 +85,9 @@ const LandingPage = {
                 </div>
             </div>
         </div>
-        <div class="col-xxl-3 col-lg-5 my-4 row-content text-center">
+    </div>
+    <div class="row gx-5s justify-content-center mx-4">
+        <div class="col-lg-5 col-md-6 col-sm-6 my-4 row-content text-center">
             <div class="img-container">
                 <div class="hover hover-3 text-white rounded"><img src="./page1/sosial-img.svg" alt="">
                     <div class="hover-overlay"></div>
@@ -94,7 +97,7 @@ const LandingPage = {
                 </div>
             </div>
         </div>
-        <div class="col-xxl-3 col-lg-5 my-4 row-content text-center">
+        <div class="col-lg-5 col-md-6 col-sm-6 my-4 row-content text-center">
             <div class="img-container">
                 <div class="hover hover-3 text-white rounded"><img src="./page1/kesehatan-img.svg" alt="">
                     <div class="hover-overlay"></div>
@@ -107,8 +110,10 @@ const LandingPage = {
     </div>
 </section>
 
+
+
 <!-- container 4 -->
-<section class="py-5">
+<section class="pb-5">
     <div class="row content justify-content-center mt-5 mx-4">
         <div class=" col-lg-7 col-md-6 mt-5 ">
             <h1 class="first-text fs-1" style="color:#379237">
