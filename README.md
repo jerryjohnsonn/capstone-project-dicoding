@@ -51,7 +51,7 @@ Nama Anggota Kelompok :
 <a id="5"></a>
 ## User-accessible Link
 
-peduli-lingkungan.vercel.app/
+https://peduli-lingkungan.vercel.app/
 
 <a id="6"></a>
 ## Github Repo Link
