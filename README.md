@@ -36,22 +36,22 @@
 Team ID : CPSG-70
 Nama Anggota Kelompok :
 <ol>
-  <li>F7253D226 - Zianatul Muna</li>
-  <li>F2278D241 - Ananta Dwi Prayoga Alwy</li>
-  <li>F2135D105 - Andi Muh. Yusran</li>
-  <li>F2375D367 - Muh. Arif</li>
+  <li>F302X0790 - Muhammad Afiq</li>
+  <li>F508X1068 - Moh. Fajar Febriansyah</li>
+  <li>F490X1018 - Jerry Johnson</li>
+  <li>F308x0809  - Muhammad Fariz Naufal Ramadhan</li>
 </ol>
 
 <a id="3"></a>
-## Tema : Book, Reference, and Education
+## Tema : Solusi terkait Kesehatan dan Kesejahteraan Lingkungan
 
 <a id="4"></a>
-## Judul : Food Intake - Sistem Informasi Produk dan Resep Makanan Untuk Referensi Asupan Nutrisi
+## Judul : Peduli Lingkungan
 
 <a id="5"></a>
 ## User-accessible Link
 
-https://foodintake.vercel.app/
+peduli-lingkungan.vercel.app/
 
 <a id="6"></a>
 ## Github Repo Link
