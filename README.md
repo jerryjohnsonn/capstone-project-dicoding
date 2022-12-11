@@ -8,7 +8,6 @@
 <a id="toc"></a>
 
 # Table of Content :
-0. ##### [Table of Content](#toc)
 1. ##### [Authors](#1)
 2. ##### [Team](#2)
 3. ##### [Tema](#3)
