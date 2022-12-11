@@ -23,7 +23,7 @@ class Footer extends HTMLElement {
             <a class="navigation" href="#/tentang-sampah">Tentang Sampah</a>
           </li>
           <li>
-            <a class="navigation" href="#/about">About Us</a>
+            <a class="navigation" href="#/kami">Kami</a>
           </li>
         </ul>
       </div>
