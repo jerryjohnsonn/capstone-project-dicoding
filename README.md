@@ -17,19 +17,17 @@
 6. ##### [Github Repo Link](#6)
 7. ##### [Slide Presentation Link](#7)
 8. ##### [Video Demo](#8)
-9. ##### [About FoodIntake](#9)
+9. ##### [About Peduli Lingkungan](#9)
 10. ###### [Background](#10)
 12. ###### [Project Resource](#11)
-13. ###### [Risk and Issue Management Plan](#12)
-14. ###### [Daftar Pustaka](#13)
 
 <a id="1"></a>
 
 ## Authors
-- [@zianatulmuna](https://www.linkedin.com/in/zianatul-muna)
-- [@AnantaAlwy](https://www.linkedin.com/in/ananta-alwy/)
-- [@Arif](https://www.linkedin.com/in/muh-arif-1254b619b)
-- [@yusran](https://www.linkedin.com/in/andi-yusran/)
+- [@Afiq](https://www.linkedin.com/in/muhammad-afiq-2a097314b/)
+- [@Fajar](https://www.linkedin.com/in/fajar-febriansyah-159349241/)
+- [@Jerry](https://www.linkedin.com/in/jerry-johnson-b77250208/)
+- [@Fariz](https://www.linkedin.com/in/m-fariz-naufal-r-813144213/)
 
 
 <a id="2"></a>
@@ -89,7 +87,7 @@ https://youtu.be/m3ewIB_K9D0
 <a id="11"></a>
 # Project Resource
 
-Berikut Resources yang dibutuhkan dalam pengembangan Website FoodIntake :
+Berikut Resources yang dibutuhkan dalam pengembangan Website Peduli Lingkungan :
 <ul>
   <li>Bahasa Pemograman :</li>
     <ul>
@@ -99,7 +97,7 @@ Berikut Resources yang dibutuhkan dalam pengembangan Website FoodIntake :
     </ul>
   <li>API :</li>
     <ul>
-      <li>Sumber API : https://spoonacular.com/food-api</li>
+      <li>Rest API : https://news-api-v1-2022.herokuapp.com/api/v1/post</li>
       <li>Pengetesan API : POSTMAN</li>
     </ul>
   <li>Library :</li>
@@ -110,40 +108,14 @@ Berikut Resources yang dibutuhkan dalam pengembangan Website FoodIntake :
   <li>Deploy :</li>
     <ul>
       <li>Vercel</li>
+      <li>Heroku</li>
     </ul>
   <li>Manajemen Proyek :</li>
     <ul>
       <li>Google Meet</li>
-      <li>WhatssApp</li>
       <li>GitHub</li>
+      <li>WhatssApp</li>
     </ul>
 </ul>
 
 
-<a id="12"></a>
-#  Risk and Issue Management Plan: 
-
-Berikut merupakan beberapa faktor yang dapat menggagalkan atau menunda pembuatan proyek website yang akan dibangun dan perencanaan bagaimana mengidentifikasi serta menyelesaikan isu yang mungkin terjadi selama pengerjaan proyek. 
-
-Kondisi  | Penyebab |Dampak  | Strategi Mitigasi
-------------- | ------------- |------------- | -------------
-Ide Aplikasi Ditolak  | Kurang jelas dan kurang berorientasi pada penyelesaian suatu masalah yang ada pada masyarakat.| Hal-hal yang telah dipersiapkan sebelumnya perlu untuk diperbaharui atau diulang.  | Memastikan ide yang diambil harus jelas dan direncanakan dengan matang.
-Kerusakan atau malfungsi Hardware  | Perangkat yang digunakan seperti laptop mengalami lag, bootloop, dsb. | Tidak dapat mengerjakan proyek dengan baik.  | Melakukan pemeliharaan terhadap perangkat keras dan memperhatikan berbagai sumber daya yang diperlukan.
-Koneksi internet yang bermasalah  | Jaringan internet provider mengalami masalah seperti putus dan sebagainya.  | Sulit berkomunikasi antar sesama anggota dan keterlambatan mengerjakan proyek.  | Selalu bersiaga dan mencari alternatif koneksi internet yang lain.
-Bencana Alam  | Adanya faktor dari alam yang tidak dapat diprediksi waktu terjadinya. | Akan mengurangi fokus dalam proses pengerjaan. | Selalu berprogres setiap harinya.
-Sakit  | Peserta tidak menjaga kesehatannya dengan baik.  | Beberapa pekerjaan mungkin akan terhambat dan akan membebani anggota tim lain.  |Selalu menjaga kesehatan dengan istirahat yang cukup.
-Mengalami hambatan selama proses pembuatan website.  | Hal ini terjadi karena kurangnya proses eksplorasi informasi.  | Terdapat tahap-tahapan berikutnya yang tidak bisa diproses sebelum masalah terselesaikan.  | Berkonsultasi kepada tutor/mentor untuk mendapatkan bimbingan dan arahan.
-Human Error  | Adanya kesalahan informasi antar sesama anggota tim.  | Proyek dibuat akan mengalami masalah dan tidak selesai sesuai timeline.  | Tetap saling berkomunikasi satu sama lain, dan menyampaikan informasi secara ringkas dan jelas.
-Perubahan Agenda.  | Adanya agenda yang tidak terduga di luar agenda projek yang telah dibuat.  | Keterlambatan pengerjaan proyek, timeline proyek yang dibuat terganggu.  | Segera mengabari anggota tim agar segera diatasi dan mendiskusikan perubahan jadwal sesegera mungkin.
-Dana  | Membutuhkan dana untuk deployment atau tools yang digunakan pada website yang dibuat.  | Website tidak dapat berjalan sesuai harapan.  | Mencari sebuah layanan hosting dan tools gratis yang tersedia.
-Ujian  | Adanya ujian dari kampus  | Menghambat pembuatan website  | Mempersiapkan Materi Kuliah
-
-<a id="13"></a>
-# Daftar Pustaka
-<ul>
-  <li><p>Halodoc.com(2020). "Ini yang Terjadi Jika Tubuh Kurang Nutrisi". Diakses pada 13 Mei 2022, dari https://www.halodoc.com/artikel/ini-yang-terjadi-jika-tubuh-kurang-nutrisi.</p></li>
-  <li><p>Nakita.grid.id(2022). “Moms Wajib Baca! Ini Manfaat Jika Kebutuhan Nutrisi Anak Terpenuhi dengan Baik sejak Dini menurut Dokter Spesialis Anak”. Diakses pada 13 Mei 2022, dari https://nakita.grid.id/read/023278783/moms-wajib-baca-ini-manfaat-jika-kebutuhan-nutrisi-anak-terpenuhi-dengan-baik-sejak-dini-menurut-dokter-spesialis-anak.</p></li>
-  <li><p>Hutasoit, Sisca Verawaty. 2016. "Asuhan Keperawatan dengan Prioritas Masalah Gangguan Pemenuhan Nutrisi : Kurang dari Kebutuhan Tubuh di RSUD dr. Pirngadi Medan". Fakultas Keperawatan,Universitas Sumatera Utara. 
-https://repositori.usu.ac.id/bitstream/handle/123456789/17951/132500112.pdf?sequence=1&isAllowed=y
-</p></li>
-</ul>
