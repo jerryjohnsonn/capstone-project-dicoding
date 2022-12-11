@@ -9,11 +9,11 @@
   font-weight: 400;
 }
 
-#berita{
+#berita {
   padding-bottom: 40px;
 }
 
-a.pargph-text{
+a.pargph-text {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -24,6 +24,7 @@ a.pargph-text{
 /* Awal dari container 3*/
 
 .container-tiga {
+  overflow: hidden;
   margin-top: 40px;
   margin-bottom: 60px;
 }
@@ -83,7 +84,7 @@ a.pargph-text{
   margin: 0 100 0 100;
 }
 
-.changebg{
+.changebg {
   background-color: green;
   opacity: 50%;
 }
@@ -92,6 +93,6 @@ a.pargph-text{
 
 div.col-lg-5.col-md-6.mt-3.text-center.d-flex,
 div.second.col-lg-5.col-md-6.text-center.d-flex,
-div.col-lg-5.col-md-6.mt-3.text-center.d-flex{
+div.col-lg-5.col-md-6.mt-3.text-center.d-flex {
   align-items: center;
 }
