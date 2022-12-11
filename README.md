@@ -79,11 +79,10 @@ https://youtu.be/HISXcT4yEJA
 <p>Latar belakang masalah ialah permasalahan lingkungan Indonesia yang tahun menahun tidak kunjung usai dan terpecahkan. Banyaknya sampah disekitaran kita juga dapat mempengaruhi lingkungan. Nah, dari sinilah kami beranjak dan menjadikan aplikasi kami sebagai solusi. Pada dasarnya sampah itu sendiri dikategorikan menjadi 3, yaitu sampah organik, anorganik, dan B3. Berkat kemajuan teknologi, saat ini hampir setiap jenis sampah anorganik dapat didaur ulang</p>
 <p> Nantinya website ini akan menjadi tempat untuk menukarkan sampah anorganik tersebut. Disini user dapat menukarkan sampah an-organiknya pada tempat pengumpulan sampah yang kami sediakan 
 Website yang dibangun nantinya akan memiliki beberapa fitur utama dan fitur tambahan yakni : </p>
-<p>**1.Fitur menampilkan jenis sampah.** 
-  Pada fitur ini akan menampilkan jenis sampah yang ada </p>
-<p>2. Fitur direct whatsapp. 
-  Pada fitur ini pengguna dapat menghubungi admin secara langsung lewat whatsapp untuk menanyakan alamat penyetoran sampah
-</p>
+**1.Fitur menampilkan jenis sampah.** 
+<p>Pada fitur ini akan menampilkan jenis sampah yang ada </p>
+**2. Fitur direct whatsapp.** 
+<p>Pada fitur ini pengguna dapat menghubungi admin secara langsung lewat whatsapp untuk menanyakan alamat penyetoran sampah</p>
 <p>Berdasarkan permasalahan tersebut, dibutuhkan sistem informasi yang dapat diakses dan digunakan dengan mudah mengenai detail kandungan nutrisi dari suatu makanan, dan memberikan fitur untuk merencanakan asupan makanan perhari atau perminggu. Untuk itu, dikembangkan solusi berupa Aplikasi Website “FoodIntake” untuk memberikan informasi mengenai resep dan detail kandungan bahan dan produk makanan untuk membantu mengatur dan memenuhi kebutuhan nutrisi.</p>
 <p>Website FoodIntake dibuat dengan memanfaatkan API dari Spoonacular dalam mendapatkan list data menu makanan. FoodIntake juga dibangun berdasarkan pembelajaran yang ada pada kelas expert dicoding.</p>
 
