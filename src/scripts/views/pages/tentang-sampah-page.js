@@ -50,7 +50,7 @@ const TentangSampah = {
         </div>
         </div>
     </div>
-</section>;
+</section>
 
 <!-- container 2 -->
 <h1 class="header-text-container fs-1 text-center">Tahukah kamu?</h1>
