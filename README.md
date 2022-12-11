@@ -32,7 +32,7 @@
 <a id="2"></a>
 ## Team
 
-Team ID : CPSG-70
+Team ID : C22-055
 Nama Anggota Kelompok :
 <ol>
   <li>F302X0790 - Muhammad Afiq</li>
