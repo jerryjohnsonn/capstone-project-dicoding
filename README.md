@@ -61,23 +61,24 @@ https://github.com/zianatulmuna/foodintake
 <a id="7"></a>
 ## Slide Presentation Link:
 
-https://drive.google.com/file/d/14flUMbts1-lM9JoZvpIT-eXE3cZoDaWM/view?usp=sharing
+https://drive.google.com/capstone/PeduliLingkungan_PPT
 
 <a id="8"></a>
 ## Video Demo Aplikasi Link :
 
-https://youtu.be/m3ewIB_K9D0
+https://youtu.be/HISXcT4yEJA
 
 
 <a id="9"></a>
-# About FoodIntake
+# About Peduli Lingkungan
 
-**FoodIntake** adalah sebuah website yang dibangun untuk memberikan informasi mengenai resep dan detail kandungan bahan dan produk makanan untuk membantu mengatur dan memenuhi kebutuhan nutrisi. Food Intake diharapkan mampu  membantu user merencanakan asupan makanan yang dibutuhkan.
+**Peduli Lingkungan** adalah sebuah website yang dibangun untuk memecahkan permasalahan sampah yang berserakan yang ada disekitar lingkungan kita. Peduli Lingkungan diharapkan dapat membantu menurunkan jumlah sampah dan juga menjadi solusi bagi pengguna yang tidak tau bagaimana dia harus mengolah sampah yang dia miliki.
 
 <a id="10"></a>
 # Background
-<p>Pola makan sehat saat ini semakin populer, namun masih banyak orang yang belum berhasil memenuhi kebutuhan nutrisi tubuh. Nutrisi berfungsi untuk membentuk dan memelihara jaringan tubuh, mengatur proses-proses dalam tubuh, sebagai sumber tenaga, serta untuk melindungi tubuh dari serangan penyakit. Kebutuhan nutrisi yang kurang dari kebutuhan tubuh adalah asupan nutrisi yang tidak cukup untuk memenuhi kebutuhan metabolik (Hutasoit, 2016).</p>
-<p>Kekurangan dan kelebihan nutrisi akan berbahaya untuk kesehatan, gejala kekurangan nutrisi yang paling umum adalah penurunan berat badan, mudah lelah, gusi, dan mulut yang sering mengalami luka, pipi dan mata terlihat cekung, mudah merasa kedinginan, dan berbagai penyakit lain (Halodoc, 2020).</p>
+<p>Latar belakang masalah ialah permasalahan lingkungan Indonesia yang tahun menahun tidak kunjung usai dan terpecahkan. Banyaknya sampah disekitaran kita juga dapat mempengaruhi lingkungan. Nah, dari sinilah kami beranjak dan menjadikan aplikasi kami sebagai solusi. Pada dasarnya sampah itu sendiri dikategorikan menjadi 3, yaitu sampah organik, anorganik, dan B3. Berkat kemajuan teknologi, saat ini hampir setiap jenis sampah anorganik dapat didaur ulang</p>
+<p> Nantinya website ini akan menjadi tempat untuk menukarkan sampah anorganik tersebut. Disini user dapat menukarkan sampah an-organiknya pada tempat pengumpulan sampah yang kami sediakan 
+Website yang dibangun nantinya akan memiliki beberapa fitur utama dan fitur tambahan yakni : </p>
 <p>Kekurangan dan kelebihan nutrisi akan berbahaya untuk kesehatan, gejala kekurangan nutrisi yang paling umum adalah penurunan berat badan, mudah lelah, gusi, dan mulut yang sering mengalami luka, pipi dan mata terlihat cekung, mudah merasa kedinginan, dan berbagai penyakit lain (Halodoc, 2020).</p>
 <p>Nutrisi yang cukup juga sangat penting untuk proses pertumbuhan anak. Asupan makanan yang baik dapat membuat anak tumbuh dan berkembang secara optimal. Selain itu, kebutuhan nutrisi yang cukup juga akan mencegah terjadinya stunting atau masalah kekurangan gizi (Nakita.id, 2022). Namun, informasi mengenai kandungan nutrisi dari bahan makanan dan produk makanan masih sulit dijangkau untuk kalangan tertentu.</p>
 <p>Lalu bagaimana cara menyediakan informasi dan membuat rencana asupan makanan sesuai dengan cakupan nutrisi yang dibutuhkan tubuh?</p>
