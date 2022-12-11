@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <img src="./src/public/company-logo.png" alt="Logo" width="80" height="80">
-  <h3 align="center">FoodIntake</h3>
+  <h3 align="center">Peduli Lingkungan</h3>
 </p>
 
 <a id="toc"></a>
