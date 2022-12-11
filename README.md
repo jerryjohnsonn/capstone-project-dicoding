@@ -1,7 +1,7 @@
 # Peduli Lingkungan
 <br />
 <p align="center">
-  <img src="./src/public/company-logo.png" alt="Logo" width="80" height="80">
+  <img src="./src/public/company-logo.png" alt="Logo" width="100" height="100">
   <h3 align="center">Peduli Lingkungan</h3>
 </p>
 
