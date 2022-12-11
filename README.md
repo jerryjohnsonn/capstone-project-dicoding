@@ -79,9 +79,11 @@ https://youtu.be/HISXcT4yEJA
 <p>Latar belakang masalah ialah permasalahan lingkungan Indonesia yang tahun menahun tidak kunjung usai dan terpecahkan. Banyaknya sampah disekitaran kita juga dapat mempengaruhi lingkungan. Nah, dari sinilah kami beranjak dan menjadikan aplikasi kami sebagai solusi. Pada dasarnya sampah itu sendiri dikategorikan menjadi 3, yaitu sampah organik, anorganik, dan B3. Berkat kemajuan teknologi, saat ini hampir setiap jenis sampah anorganik dapat didaur ulang</p>
 <p> Nantinya website ini akan menjadi tempat untuk menukarkan sampah anorganik tersebut. Disini user dapat menukarkan sampah an-organiknya pada tempat pengumpulan sampah yang kami sediakan 
 Website yang dibangun nantinya akan memiliki beberapa fitur utama dan fitur tambahan yakni : </p>
-<p>Kekurangan dan kelebihan nutrisi akan berbahaya untuk kesehatan, gejala kekurangan nutrisi yang paling umum adalah penurunan berat badan, mudah lelah, gusi, dan mulut yang sering mengalami luka, pipi dan mata terlihat cekung, mudah merasa kedinginan, dan berbagai penyakit lain (Halodoc, 2020).</p>
-<p>Nutrisi yang cukup juga sangat penting untuk proses pertumbuhan anak. Asupan makanan yang baik dapat membuat anak tumbuh dan berkembang secara optimal. Selain itu, kebutuhan nutrisi yang cukup juga akan mencegah terjadinya stunting atau masalah kekurangan gizi (Nakita.id, 2022). Namun, informasi mengenai kandungan nutrisi dari bahan makanan dan produk makanan masih sulit dijangkau untuk kalangan tertentu.</p>
-<p>Lalu bagaimana cara menyediakan informasi dan membuat rencana asupan makanan sesuai dengan cakupan nutrisi yang dibutuhkan tubuh?</p>
+<p>1. Fitur menampilkan jenis sampah. 
+  Pada fitur ini akan menampilkan jenis sampah yang ada </p>
+<p>2. Fitur direct whatsapp. 
+  Pada fitur ini pengguna dapat menghubungi admin secara langsung lewat whatsapp untuk menanyakan alamat penyetoran sampah
+</p>
 <p>Berdasarkan permasalahan tersebut, dibutuhkan sistem informasi yang dapat diakses dan digunakan dengan mudah mengenai detail kandungan nutrisi dari suatu makanan, dan memberikan fitur untuk merencanakan asupan makanan perhari atau perminggu. Untuk itu, dikembangkan solusi berupa Aplikasi Website “FoodIntake” untuk memberikan informasi mengenai resep dan detail kandungan bahan dan produk makanan untuk membantu mengatur dan memenuhi kebutuhan nutrisi.</p>
 <p>Website FoodIntake dibuat dengan memanfaatkan API dari Spoonacular dalam mendapatkan list data menu makanan. FoodIntake juga dibangun berdasarkan pembelajaran yang ada pada kelas expert dicoding.</p>
 
