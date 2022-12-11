@@ -56,7 +56,8 @@ https://peduli-lingkungan.vercel.app/
 <a id="6"></a>
 ## Github Repo Link
 
-https://github.com/zianatulmuna/foodintake
+https://github.com/fajar2302/capstone-project-dicoding
+https://github.com/muhammadafiq21/BackEnd_API
 
 <a id="7"></a>
 ## Slide Presentation Link:
@@ -79,7 +80,7 @@ https://youtu.be/HISXcT4yEJA
 <p>Latar belakang masalah ialah permasalahan lingkungan Indonesia yang tahun menahun tidak kunjung usai dan terpecahkan. Banyaknya sampah disekitaran kita juga dapat mempengaruhi lingkungan. Nah, dari sinilah kami beranjak dan menjadikan aplikasi kami sebagai solusi. Pada dasarnya sampah itu sendiri dikategorikan menjadi 3, yaitu sampah organik, anorganik, dan B3. Berkat kemajuan teknologi, saat ini hampir setiap jenis sampah anorganik dapat didaur ulang</p>
 <p> Nantinya website ini akan menjadi tempat untuk menukarkan sampah anorganik tersebut. Disini user dapat menukarkan sampah an-organiknya pada tempat pengumpulan sampah yang kami sediakan 
 Website yang dibangun nantinya akan memiliki beberapa fitur utama dan fitur tambahan yakni : </p>
-1.Fitur menampilkan jenis sampah
+1. Fitur menampilkan jenis sampah
 <p>Pada fitur ini akan menampilkan jenis sampah yang ada </p>
 2. Fitur direct whatsapp. 
 <p>Pada fitur ini pengguna dapat menghubungi admin secara langsung lewat whatsapp untuk menanyakan alamat penyetoran sampah</p>
